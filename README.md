@@ -1,3 +1,3 @@
 # BEFZ
-nice
+nice.
 feri gay
