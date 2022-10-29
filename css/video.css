@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: black;
+}
+.h1{
+    color: white;
+    text-align: center;
+    margin: 150px 0 100px 0;
+    font-size: 30px;
+}
+.header{
+    height: 40px;
+}
+li{
+    display: inline;
+    color: white;
+    font-size: 25px;
+    float: right;
+    padding: 10px 20px;
+}
+li:first-child{
+    float: left;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.video-holder{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.video{
+    width: 350px;
+}
+.video img{
+    width: 80%;
+}
+.video h2:hover{
+    text-decoration: underline 2px;
+}
