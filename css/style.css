@@ -1,16 +1,24 @@
 *{
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Tw Cen MT Condensed', sans-serif;
 }
 body{
     background-color: black;
 }
 
-.h1{
-    color: #FFA500;
+.logo img{
+    display: block;
+    margin: auto;
+    width: 65%;
+    height: auto;
+    margin-top: 300px;
+    margin-bottom: 250px;
+    /*
+    color: rgb(255, 165, 0);
     text-align: center;
     margin: 450px 0 550px 0;
     font-size: 60px;
+    */
 }
 .header{
     height: 40px;
@@ -18,7 +26,7 @@ body{
 li{
     display: inline;
     color: white;
-    font-size: 25px;
+    font-size: 35px;
     float: right;
     padding: 10px;
 }
