@@ -9,12 +9,10 @@
     /*scroll-snap-type: y mandatory;
     overflow-y: scroll;*/
     height: 100vh;
-    position: absolute;
 }
 body{
     background-color: black;
     overflow-x: hidden;
-    position: absolute;
 }
 section{
     display: grid;    
@@ -24,7 +22,6 @@ section{
     align-items: center;
 }
 .first{
-    position: relative;
     display: flex;
     justify-content: center;
     overflow-x: hidden;
@@ -47,7 +44,6 @@ section{
     width: 100vw;
     text-align: center;
     font-size: 10vh;
-    
 }
 #text{
     color: black;
@@ -85,6 +81,7 @@ li:first-child{
     padding: 5px;
     font-size: 25px;
     margin: 25px;
+    z-index: 1000;
 }
 .nev{
     color: #FFA500;
