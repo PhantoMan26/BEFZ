@@ -9,8 +9,16 @@ window.addEventListener('scroll', () =>{
     let value = window.scrollY;
     p2l.style.marginTop = value * 1.5 + 'px';
     s1.style.left = value * -.5 + 'px';
-    s2.style.left = value * -.8 + 'px';
+    s1.style.top = value * .5 + 'px';
+
+    s2.style.left = value * -.7 + 'px';
+    s2.style.top = value * .8 + 'px';
+
     s4.style.left = value * .5 + 'px';
-    s5.style.left = value * .8 + 'px';
+    s4.style.top = value * .6 + 'px';
+
+    s5.style.left = value * .7 + 'px';
+    s5.style.top = value * .8 + 'px';
+
     s3.style.top = value * .5 + 'px';
 });
