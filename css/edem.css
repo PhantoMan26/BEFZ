@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Tw Cen MT Condensed', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/*Edem's website*/
+.wrapperBody{
+    height: 100vh;
+    width: 100vw;background-color: black;
+    overflow-x: hidden;
+}
+.card-top{
+    text-align: center;
+    position: relative;
+}
+.zero{
+    color: orange;
+    font-size: 20vh;
+    line-height: 70%;
+    display: inline-block;
+}
+.first{
+    color: black;
+    font-size: 20vh;
+    line-height: 70%;
+    -webkit-text-stroke: 1.5px white;
+    display: inline-block;
+}
+.second{
+    color: black;
+    font-size: 20vh;
+    line-height: 70%;
+    -webkit-text-stroke: 1.5px white;
+    display: inline-block;
+}
+.third{
+    color: black;
+    font-size: 20vh;
+    line-height: 70%;
+    -webkit-text-stroke: 1.5px white;
+    display: inline-block;
+}
+.card-top img{
+    -ms-transform: translate(-20%, 0%);
+    transform: translate(-26%, 0%);
+    height: 100%;
+    bottom: 6px;
+    position: absolute;
+}
+.card-middle{
+    height: auto;
+    text-align: center;
+}
+.middle1{
+    border: #ffffff 3px solid;
+    border-radius: 3px;
+    padding: 10px;
+    width: 11em;
+    display: inline-block;
+}
+.middle2{
+    border: orange 3px solid;
+    background-color: orange;
+    border-radius: 3px;
+    padding: 10px;
+    width: 8em;
+    display: inline-block;
+}
+.card-bottom{
+    /*display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    */
+    height: auto;
+    text-align: center;
+}
+.img{
+    background-color: orange;
+    height: 12.5vh;
+    width: 12.5vh;
+    border: 2px orange solid;
+    border-radius: 3px;
+    display: inline-block;
+    /*background-image: url(../img/s1px_Small.png);*/
+}
+.text{
+    padding-left: 10px;
+    display: inline-block;
+    color: white;
+    height: 15vh;
+    width: 20vh;
+    text-align: justify;
+}
+.Orange{
+    color: orange;
+    font-size: 4vh;
+}
+.Green{
+    color: green;
+    font-size: 4vh;
+}
+.BottomPayToLoseLogo{
+    text-align: center;
+    color: white;
+    font-size: 3vh;
+    cursor: default;
+}
