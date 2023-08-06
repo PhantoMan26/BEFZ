@@ -120,57 +120,103 @@ a{
     font-size: 30px;
 }
 /*Benya website*/
+.wrapperBody{
+    height: 100vh;
+    width: 100vw;
+}
 .Bcard-top{
     text-align: center;
     position: relative;
 }
 .Zbenya{
     color: green;
-    font-size: 10vw;
+    font-size: 20vh;
     line-height: 70%;
     display: inline-block;
 }
 .benya1{
     color: black;
-    font-size: 10vw;
+    font-size: 20vh;
     line-height: 70%;
     -webkit-text-stroke: 1.5px white;
     display: inline-block;
 }
 .benya2{
     color: black;
-    font-size: 10vw;
+    font-size: 20vh;
     line-height: 70%;
     -webkit-text-stroke: 1.5px white;
     display: inline-block;
 }
 .benya3{
     color: black;
-    font-size: 10vw;
+    font-size: 20vh;
     line-height: 70%;
     -webkit-text-stroke: 1.5px white;
     display: inline-block;
 }
 .Bcard-top img{
-    width: 30%;
-    top: 4.5%;
-    left: 35%;
+    -ms-transform: translate(-20%, 0%);
+    transform: translate(-20%, 0%);
+    height: 100%;
+    bottom: 9px;
     position: absolute;
 }
 .Bcard-middle{
-    margin-left: 41%;
+    height: auto;
+    text-align: center;
 }
 .middle1{
     border: #ffffff 3px solid;
     border-radius: 3px;
     padding: 10px;
-    width: 21%;
+    width: 14em;
     display: inline-block;
 }
 .middle2{
     border: green 3px solid;
     border-radius: 3px;
     padding: 10px;
-    width: 10%;
+    width: 7em;
     display: inline-block;
+}
+.Bcard-bottom{
+    /*display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    */
+    height: auto;
+    text-align: center;
+}
+.B-img{
+    background-color: green;
+    height: 12.5vh;
+    width: 12.5vh;
+    border: 2px green solid;
+    border-radius: 3px;
+    display: inline-block;
+    /*background-image: url(../img/s1px_Small.png);*/
+}
+.B-text{
+    padding-left: 10px;
+    display: inline-block;
+    color: white;
+    height: 20vh;
+    width: 20vh;
+    text-align: justify;
+}
+.ZahoranWhite{
+    color: white;
+    font-size: 4vh;
+}
+.ZorroGreen{
+    color: green;
+    font-size: 4vh;
+}
+.BottomPayToLoseLogo{
+    text-align: center;
+    color: white;
+    font-size: 3vh;
+    cursor: default;
 }
