@@ -10,7 +10,6 @@
     width: 100vw;
     background-color: black;
     overflow-x: hidden;
-    
 }
 .card-top{
     text-align: center;
@@ -79,25 +78,38 @@
     text-align: center;
 }
 .img{
-    background-color: orange;
-    height: 12.5vh;
-    width: 12.5vh;
-    border: 2px orange solid;
+    background-color: dodgerblue;
+    height: 30vh;
+    width: 50vh;
+    border: 2px white solid;
     border-radius: 3px;
     display: inline-block;
     /*background-image: url(../img/s1px_Small.png);*/
 }
 .text{
-    padding-left: 10px;
-    display: inline-block;
+    text-align: center;
     color: white;
     height: 15vh;
-    width: 20vh;
-    text-align: justify;
+    width: 35vh;
+    margin-left: auto;
+    margin-right: auto;
+
 }
-.Orange{
-    color: orange;
-    font-size: 4vh;
+.textName{
+    color: white;
+    width: 50vh;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 5vh;
+}
+
+.White{
+    color: white;
+    font-size: 6vh;
+    text-align: center;
+}
+.Blue{
+    color: dodgerblue;
 }
 .BottomPayToLoseLogo{
     text-align: center;
