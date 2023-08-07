@@ -88,7 +88,7 @@
     padding-left: 10px;
     display: inline-block;
     color: white;
-    height: 20vh;
+    height: 5vh;
     width: 20vh;
     text-align: justify;
 }
@@ -105,4 +105,5 @@
     color: white;
     font-size: 3vh;
     cursor: default;
+    transform: translateY(230%);
 }
