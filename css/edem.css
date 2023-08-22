@@ -46,8 +46,8 @@
 .card-top img{
     -ms-transform: translate(-20%, 0%);
     transform: translate(-26%, 0%);
-    height: 100%;
-    bottom: 6px;
+    height: 98%;
+    bottom: 9px;
     position: absolute;
 }
 .card-middle{
